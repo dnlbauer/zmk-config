@@ -79,7 +79,7 @@
 &trans     &trans       &trans       &trans       &trans       &trans                   &kp PG_UP &kp KP_N7    &kp KP_N8   &kp KP_N9   &trans  &trans
 &trans     &trans       &trans       &trans       &trans       &trans                   &kp PG_DN &kp KP_N4    &kp KP_N5   &kp KP_N6   &kp DEL &kp BSPC
 &trans     &trans       &trans       &trans       &trans       &trans  &trans   &trans  &trans    &kp KP_N1    &kp KP_N2   &kp KP_N3   &trans  &trans
-                        &trans       &trans       &trans       &trans  &trans   &trans  &trans    &kp KP_N0    &kp KP_DO   &trans
+                        &trans       &trans       &trans       &trans  &trans   &trans  &trans    &kp KP_N0    &kp KP_DOT  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
