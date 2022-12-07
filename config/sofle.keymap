@@ -12,14 +12,6 @@
     continue-list = <UNDERSCORE MINUS>;
 };
 
-&left_encoder {
-    resolution = <1>;
-};
-
-&right_encoder {
-    resolution = <1>;
-};
-
 / {
     keymap {
         compatible = "zmk,keymap";
