@@ -13,11 +13,11 @@
 };
 
 &left_encoder {
-    resolution = <2>;
+    resolution = <1>;
 };
 
 &right_encoder {
-    resolution = <2>;
+    resolution = <1>;
 };
 
 / {
