@@ -33,7 +33,7 @@
             label = "tdrstr";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <trans>, <&reset>;
+            bindings = <&trans>, <&reset>;
         }; 
     };
 
