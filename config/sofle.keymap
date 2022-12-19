@@ -21,18 +21,18 @@
 / {
 
     behaviors {
-        tdrstl {
+        tdrstl: tdrstl {
             compatible = "zmk,behavior-tap-dance";
-            label = "left F5 / reset";
+            label = "tdrstl";
             #binding_cells = <0>;
             tapping_term_ms = <200>;
             bindings = <&kp F5>, <&reset>;
         };
-        tdrstr {
+        tdrstr: tdrstr {
             compatible = "zmk,bhavior-tap-dance";
-            label "trans / reset";
+            label = "tdrstr";
             #binding_cells = <0>;
-            tapping_term_ms = <0>;
+            tapping_term_ms = <200>;
             bindings = <&trans>, <&reset>;
         }
         
