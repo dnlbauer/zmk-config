@@ -7,7 +7,7 @@ manifest:
   projects:
    - name: zmk
      remote: infused-kim
-     revision: sofle
+     revision: revision: aa-my-customizations-z3
      import: app/west.yml
 #     - name: zmk
 #       remote: zmkfirmware
