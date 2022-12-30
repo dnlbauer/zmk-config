@@ -15,7 +15,7 @@
 #define NUM     3
 
 &caps_word {
-    continue-list = <UNDERSCORE MINUS>;
+    continue-list = <UNDERSCORE MINUS LS(MINUS)>;
 };
 
 / {
